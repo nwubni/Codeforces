@@ -23,7 +23,7 @@ int main() {
       }
 
       if (build.back() != c) {
-        if (seen.count(c)) {
+        if (seen.contains(c)) {
           noticed = true;
           break;
         } else {
